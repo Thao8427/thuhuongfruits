@@ -1,0 +1,210 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng ngày 20/10</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fcf4f0;
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 720px;
+            min-height: 100vh;
+            padding: 25px 15px 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .subtitle {
+            color: #cf7896;
+            font-size: 20px;
+            margin-bottom: 17px;
+        }
+
+        h1 {
+            color: #804354;
+            font-size: clamp(38px, 8vw, 60px);
+            font-weight: 400;
+            letter-spacing: 5px;
+            line-height: 1.15;
+            margin-bottom: 25px;
+        }
+
+        .message {
+            color: #cf7896;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        .flower {
+            width: 100%;
+            max-width: 360px;
+            height: 280px;
+            margin: 0 auto;
+        }
+
+        .flower svg {
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding-top: 35px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            h1 {
+                letter-spacing: 3px;
+            }
+
+            .message {
+                font-size: 15px;
+            }
+
+            .flower {
+                max-width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+
+        <p class="subtitle">
+            GỬI TỚI NHỮNG PHỤ NỮ TUYỆT VỜI
+        </p>
+
+        <h1>
+            CHÚC MỪNG<br>
+            20/10
+        </h1>
+
+        <p class="message">
+            Hãy mãi xinh đẹp và thành công nhé!
+        </p>
+
+        <div class="flower">
+            <svg viewBox="0 0 360 280"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <!-- Cành hoa -->
+                <g fill="none" stroke="#28533e"
+                   stroke-width="5" stroke-linecap="round">
+                    <path d="M185 280 Q150 210 132 115"/>
+                    <path d="M185 280 Q220 210 250 150"/>
+                    <path d="M185 280 Q170 230 100 205"/>
+                    <path d="M185 280 Q220 235 280 225"/>
+                    <path d="M132 220 Q100 190 55 200"/>
+                    <path d="M100 205 Q75 225 50 225"/>
+                </g>
+
+                <!-- Lá -->
+                <g fill="#579d50">
+                    <ellipse cx="95" cy="197" rx="10" ry="24"
+                             transform="rotate(-45 95 197)"/>
+                    <ellipse cx="75" cy="218" rx="8" ry="22"
+                             transform="rotate(45 75 218)"/>
+                    <ellipse cx="120" cy="205" rx="8" ry="23"
+                             transform="rotate(-25 120 205)"/>
+                    <ellipse cx="145" cy="235" rx="9" ry="24"
+                             transform="rotate(-40 145 235)"/>
+                    <ellipse cx="190" cy="253" rx="9" ry="26"
+                             transform="rotate(40 190 253)"/>
+                    <ellipse cx="230" cy="252" rx="9" ry="25"
+                             transform="rotate(55 230 252)"/>
+                    <ellipse cx="155" cy="270" rx="8" ry="23"
+                             transform="rotate(-50 155 270)"/>
+                    <ellipse cx="60" cy="198" rx="8" ry="20"
+                             transform="rotate(-30 60 198)"/>
+                </g>
+
+                <!-- Bông hoa lớn -->
+                <path d="M132 115
+                         C100 112 76 100 70 83
+                         C66 70 86 64 97 47
+                         C108 31 108 10 126 8
+                         C140 5 146 17 158 9
+                         C173 0 182 19 180 42
+                         C179 66 176 90 157 113
+                         Z"
+                      fill="#e7548a"/>
+
+                <path d="M105 86 Q126 91 144 105
+                         Q121 103 105 86"
+                      fill="#a52f5b"/>
+
+                <path d="M150 115 Q164 103 175 91
+                         Q172 109 150 115"
+                      fill="#28533e"/>
+
+                <!-- Nụ hoa bên phải -->
+                <path d="M250 150
+                         C226 149 216 132 221 112
+                         C225 94 236 89 245 104
+                         C258 92 272 102 275 119
+                         C280 135 267 146 250 150 Z"
+                      fill="#e7548a"/>
+
+                <path d="M231 135 L249 143 L261 129"
+                      fill="none" stroke="#a52f5b"
+                      stroke-width="3" stroke-linecap="round"/>
+
+                <!-- Hoa nhỏ phía dưới trái -->
+                <path d="M100 205
+                         C79 205 65 194 72 179
+                         C79 164 89 174 99 179
+                         C110 164 124 176 125 190
+                         C125 201 112 207 100 205 Z"
+                      fill="#e7548a"/>
+
+                <!-- Hoa nhỏ bên phải -->
+                <path d="M280 225
+                         C263 221 263 207 273 196
+                         C281 186 289 192 294 198
+                         C307 190 316 202 310 213
+                         C304 224 293 228 280 225 Z"
+                      fill="#e7548a"/>
+
+                <!-- Nhụy và chấm trang trí -->
+                <g fill="#804354">
+                    <circle cx="91" cy="53" r="2.5"/>
+                    <circle cx="86" cy="64" r="2.5"/>
+                    <circle cx="83" cy="76" r="2.5"/>
+                    <circle cx="260" cy="99" r="2.5"/>
+                    <circle cx="268" cy="103" r="2.5"/>
+                    <circle cx="275" cy="110" r="2.5"/>
+                    <circle cx="305" cy="191" r="2.5"/>
+                    <circle cx="312" cy="198" r="2.5"/>
+                    <circle cx="68" cy="182" r="2.5"/>
+                    <circle cx="73" cy="191" r="2.5"/>
+                </g>
+
+            </svg>
+        </div>
+
+    </main>
+</body>
+</html>
+```
